@@ -565,7 +565,7 @@
 	font-weight: bold;
 	padding-bottom: 20px;
 	border-bottom: 3px solid;
-	border-image: linear-gradient(to right, transparent 44%, #d70044 44%, #d70044 56%, transparent 56%) 0 0 2;
+	border-image: linear-gradient(to right, transparent 46%, #d70044 46%, #d70044 54%, transparent 54%) 0 0 2;
 
 }
 .counter{
@@ -604,8 +604,9 @@ justify-content: center;
 	background: linear-gradient(to left, #ab0146, #fb0042);
 }
 .social__item{
-margin-right:17px;
-
+	width:37px;
+	height:3px;
+    margin:3px;
 }
 .social__link{
 	width: 37px;
