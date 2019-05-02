@@ -200,32 +200,39 @@ body {
 }
 .form-block h1{
 	font-size: 22px;
+  margin-bottom: 40px;
 }
 
 .button {
 text-align: center;
-margin:30px;
-height: auto;
+margin-top:30px;
+margin-bottom: 70px;
 font-size: 20px;
 font-weight: 200px;
 color: #808080;
 }
+.button div:first-child{
+margin-left: 130px;
+}
 
 .button a {
-  color: #b5b5b5;
-  height: 75px;
-  margin: 30px auto;
-  border-radius: 5px;
-  padding: 10px 25px;
   text-decoration: none;
+  color: #b5b5b5;
   font-weight: 100;
-
+  border-radius: 5px;
+  margin: 30px 30px;
+  padding: 10px 40px;
+}
+.button div {
+  float: left;
+  height: 45px;
 }
 
 .button a:hover{
 	background-color: #025992;
   color: #ffffff;
 }
+
 
 
 @media only screen and (max-width: 1199px){
@@ -239,11 +246,19 @@ color: #808080;
 	.wrap{
 		padding: 30px 0;
 	}
-
 	.form-gradient{
 		margin: 0 15px;
 	}
-
+  .button {
+  margin-bottom: 0px;
+  }
+  .button div {
+    float: none;
+    height: 45px;
+  }
+  .button div:first-child{
+  margin-left: 0px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -253,5 +268,15 @@ color: #808080;
 	}
   .form-block h1{
   	font-size: 18px;
+  }
+  .button {
+  margin-bottom: 0px;
+  }
+  .button div {
+    float: none;
+    height: 45px;
+  }
+  .button div:first-child{
+  margin-left: 0px;
   }
 }
