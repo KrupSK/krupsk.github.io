@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,500,700');
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain) */
+
+   #ac-globalnav,#ac-gn-segmentbar{
+     font-weight:normal;
+     -webkit-text-size-adjust:100%;
+     -moz-text-size-adjust:100%;
+     -ms-text-size-adjust:100%;
+     text-size-adjust:100%
+    }
+
+    #ac-globalnav,#ac-globalnav:before,#ac-globalnav:after,#ac-globalnav *,#ac-globalnav *:before,#ac-globalnav *:after,#ac-gn-segmentbar,#ac-gn-segmentbar:before,#ac-gn-segmentbar:after,#ac-gn-segmentbar *,#ac-gn-segmentbar *:before,#ac-gn-segmentbar *:after
+    {
+       -webkit-box-sizing:content-box;
+       box-sizing:content-box;
+       margin:0;
+       padding:0;
+       pointer-events:auto;
+       letter-spacing:normal
+    }
+
+    #ac-globalnav {
+      position:fixed;
+      top:0;
+      right:0;
+      left:0;
+      z-index:9999;
+      display:block;
+      margin:0;
+      width:100%;
+      min-width:1024px;
+      height:44px;
+      max-height:44px;
+      background:rgba(45,45,45,0.98);
+      font-size:17px;
+      -webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;
+      }
+
+
+
+      #ac-globalnav .ac-gn-link:hover{opacity:.65}
+
+      #ac-globalnav .ac-gn-link-text {
+
+        clip:rect(1px 1px 1px 1px);
+        clip:rect(1px, 1px, 1px, 1px);
+        -webkit-clip-path:inset(0px 0px 99.9% 99.9%);
+        clip-path:inset(0px 0px 99.9% 99.9%);
+        overflow:hidden;
+        height:1px;
+        width:1px;
+        padding:0;
+        border:0;
+        top:50%;
+        }
+
+      #ac-globalnav .ac-gn-item {
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+        display:inline-block;
+        position:relative;
+        height:44px;
+        z-index:1;
+        vertical-align:top;
+        }
+
+      #ac-globalnav .ac-gn-link-apple {
+        margin-top: 7px;
+        background-size:16px 44px;
+        background-repeat:no-repeat;background-image:url("img/aple.png");
+        background-position:center center;width:16px;
+      }
+
+      #ac-globalnav .ac-gn-list {
+padding-top: 10px;
+      }
+
+      #ac-globalnav .ac-gn-header .ac-gn-item,#ac-globalnav .ac-gn-header .ac-gn-link{
+        height:44px;
+      }
+      #ac-globalnav .ac-gn-header .ac-gn-link
+      {line-height:2.82353em}
+
+      #ac-globalnav .ac-gn-content {
+        margin:0 auto;
+        height: 44px;
+        max-width:980px;
+        padding:0 22px;
+        position:relative;
+        z-index:2;
+        padding-left:calc(22px + constant(safe-area-inset-left));
+        padding-right:calc(22px + constant(safe-area-inset-right));
+        }
+
+        @supports (padding: calc(max(0px))) {
+          #ac-globalnav .ac-gn-content{
+            padding-left:calc(max(22px, env(safe-area-inset-left)));
+            padding-right:calc(max(22px, env(safe-area-inset-right)));
+            }
+        }
+        @media only screen and (max-width: 767px){
+          #ac-globalnav .ac-gn-content{
+            padding:0;
+            position:absolute;
+            top:0;
+            width:100%;
+            height:100%;
+            }
+        }
+      #ac-globalnav .ac-gn-header{
+        display:none;
+        position:absolute;
+        z-index:5;
+        top:0;
+        left:0;
+        width:100%;
+        height:48px;
+        overflow:hidden;
+      }
+
+
+body {
+    line-height: 1;
+	font-family: 'Roboto', sans-serif;
+}
+
+.block-abs-new {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrap{
+	position: absolute;
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.ember245, #ember245::before {
+      width: 246px;
+      height: 246px;
+    }
+    .ember245::before {
+      padding-top: 100%;
+    }
+@media (min-width: 736px) {
+      .ember245, #ember245::before {
+      width: 217px;
+      height: 217px;
+    }
+    .ember245::before {
+      padding-top: 100%;
+    }
+    }
+@media (min-width: 1069px) {
+      .ember245, #ember245::before {
+      width: 230px;
+      height: 230px;
+    }
+    .ember245::before {
+      padding-top: 100%;
+    }
+}
+
+  .ember257, #ember257::before {
+        width: 643px;
+        height: 361px;
+      }
+      .ember257::before {
+        padding-top: 56.143079315707624%;
+      }
+@media (min-width: 736px) {
+        .ember257, #ember257::before {
+        width: 217px;
+        height: 122px;
+      }
+      .ember257::before {
+        padding-top: 56.22119815668203%;
+      }
+      }
+@media (min-width: 1069px) {
+        .ember257, #ember257::before {
+        width: 313px;
+        height: 176px;
+      }
+      .ember257::before {
+        padding-top: 56.23003194888179%;
+      }
+      }
+
+      .ember262, #ember262::before {
+            width: 643px;
+            height: 361px;
+          }
+          .ember262::before {
+            padding-top: 56.143079315707624%;
+          }
+  @media (min-width: 736px) {
+            .ember262, #ember262::before {
+            width: 217px;
+            height: 122px;
+          }
+          .ember262::before {
+            padding-top: 56.22119815668203%;
+          }
+          }
+  @media (min-width: 1069px) {
+            .ember262, #ember262::before {
+            width: 313px;
+            height: 176px;
+          }
+          .ember262::before {
+            padding-top: 56.23003194888179%;
+          }
+          }
+
+          .ember267, #ember267::before {
+                width: 643px;
+                height: 361px;
+              }
+              .ember267::before {
+                padding-top: 56.143079315707624%;
+              }
+      @media (min-width: 736px) {
+                .ember267, #ember267::before {
+                width: 217px;
+                height: 122px;
+              }
+              .ember267::before {
+                padding-top: 56.22119815668203%;
+              }
+              }
+      @media (min-width: 1069px) {
+                .ember267, #ember267::before {
+                width: 313px;
+                height: 176px;
+              }
+              .ember267::before {
+                padding-top: 56.23003194888179%;
+              }
+              }
+
+              .ember272, #ember272::before {
+                    width: 643px;
+                    height: 361px;
+                  }
+                  .ember272::before {
+                    padding-top: 56.143079315707624%;
+                  }
+          @media (min-width: 736px) {
+                    .ember272, #ember272::before {
+                    width: 217px;
+                    height: 122px;
+                  }
+                  .ember272::before {
+                    padding-top: 56.22119815668203%;
+                  }
+                  }
+          @media (min-width: 1069px) {
+                    .ember272, #ember272::before {
+                    width: 313px;
+                    height: 176px;
+                  }
+                  .ember272::before {
+                    padding-top: 56.23003194888179%;
+                  }
+                  }
+
+
+
+
+
+
+
+
+
+
+.form-gradient{
+	max-width: 760px;
+	margin: 15px auto;
+	position: relative;
+	z-index: 5;
+}
+
+.form-block h3, h1 {
+	text-align: center;
+	color: #fff;
+	font-size: 55px;
+	margin-top: 30px;
+	font-weight: 100px;
+}
+.form-block h1 {
+	font-size: 30px;
+  	margin-bottom: 50px;
+}
+
+ .form-block .info {
+   margin-top: 90px;
+ }
+ .form-block .info p {
+ 	text-align: center;
+ 	font-size: 22px;
+  margin: auto;
+ }
+
+a.button{
+  color: #fff;
+    text-decoration: none;
+    background-color: #ba0100;
+    border-radius: 5px;
+    padding: 26px 95px;
+   }
+
+a.button:hover {
+    text-decoration: none;
+    background-color: #960b0b;
+}
+
+@media only screen and (max-width: 1199px){
+	.form-gradient:after{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 781px) {
+
+	.wrap{
+		padding: 30px 0;
+	}
+
+	.form-gradient{
+		margin: 0 15px;
+	}
+
+
+  .form-block h1 {
+  	font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.form-block h3 {
+		font-size: 50px;
+	}
+
+  .form-block h3, h1 {
+  	font-size: 40px;
+  }
+  .form-block h1 {
+    font-size: 20px;
+  }
+  .form-block .info p {
+  	font-size: 18px;
+  }
+
+ a.button{
+     padding: 22px 35px;
+    }
+
+}
